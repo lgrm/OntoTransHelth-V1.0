@@ -1,0 +1,182 @@
+{
+  "imports": [],
+  "translations": [
+    {
+      "name": "enext-store-locator-crud [th]",
+      "language": "th"
+    },
+    {
+      "name": "enext-store-locator-crud",
+      "language": "pt_BR"
+    },
+    {
+      "name": "enext-store-locator-crud [zh_CN]",
+      "language": "zh_CN"
+    },
+    {
+      "name": "enext-store-locator-crud [en_AU]",
+      "language": "en_AU"
+    },
+    {
+      "name": "enext-store-locator-crud [en_US]",
+      "language": "en_US"
+    },
+    {
+      "name": "enext-store-locator-crud [uk]",
+      "language": "uk"
+    },
+    {
+      "name": "enext-store-locator-crud [bg]",
+      "language": "bg"
+    },
+    {
+      "name": "enext-store-locator-crud [et]",
+      "language": "et"
+    },
+    {
+      "name": "enext-store-locator-crud [lv]",
+      "language": "lv"
+    },
+    {
+      "name": "enext-store-locator-crud [lt]",
+      "language": "lt"
+    },
+    {
+      "name": "enext-store-locator-crud [no]",
+      "language": "no"
+    },
+    {
+      "name": "enext-store-locator-crud [fr_CA]",
+      "language": "fr_CA"
+    },
+    {
+      "name": "enext-store-locator-crud [ro]",
+      "language": "ro"
+    },
+    {
+      "name": "enext-store-locator-crud [ja]",
+      "language": "ja"
+    },
+    {
+      "name": "enext-store-locator-crud [sl]",
+      "language": "sl"
+    },
+    {
+      "name": "enext-store-locator-crud [hr]",
+      "language": "hr"
+    },
+    {
+      "name": "enext-store-locator-crud [ru]",
+      "language": "ru"
+    },
+    {
+      "name": "enext-store-locator-crud [tr]",
+      "language": "tr"
+    },
+    {
+      "name": "enext-store-locator-crud [pl]",
+      "language": "pl"
+    },
+    {
+      "name": "enext-store-locator-crud [zh_TW]",
+      "language": "zh_TW"
+    },
+    {
+      "name": "enext-store-locator-crud [ko]",
+      "language": "ko"
+    },
+    {
+      "name": "enext-store-locator-crud [cs]",
+      "language": "cs"
+    },
+    {
+      "name": "enext-store-locator-crud [hu]",
+      "language": "hu"
+    },
+    {
+      "name": "enext-store-locator-crud [el]",
+      "language": "el"
+    },
+    {
+      "name": "enext-store-locator-crud [da]",
+      "language": "da"
+    },
+    {
+      "name": "enext-store-locator-crud [en]",
+      "language": "en"
+    },
+    {
+      "name": "enext-store-locator-crud [sr]",
+      "language": "sr"
+    },
+    {
+      "name": "enext-store-locator-crud [ar]",
+      "language": "ar"
+    },
+    {
+      "name": "enext-store-locator-crud [de]",
+      "language": "de"
+    },
+    {
+      "name": "enext-store-locator-crud [sr_Latn]",
+      "language": "sr_Latn"
+    },
+    {
+      "name": "enext-store-locator-crud [ca]",
+      "language": "ca"
+    },
+    {
+      "name": "enext-store-locator-crud [es]",
+      "language": "es"
+    },
+    {
+      "name": "enext-store-locator-crud [fr]",
+      "language": "fr"
+    },
+    {
+      "name": "enext-store-locator-crud [in]",
+      "language": "id"
+    },
+    {
+      "name": "enext-store-locator-crud [it]",
+      "language": "it"
+    },
+    {
+      "name": "enext-store-locator-crud [ms]",
+      "language": "ms"
+    },
+    {
+      "name": "enext-store-locator-crud [en_GB]",
+      "language": "en_GB"
+    },
+    {
+      "name": "enext-store-locator-crud [vi]",
+      "language": "vi"
+    },
+    {
+      "name": "enext-store-locator-crud [nl]",
+      "language": "nl"
+    },
+    {
+      "name": "enext-store-locator-crud [en_CA]",
+      "language": "en_CA"
+    },
+    {
+      "name": "enext-store-locator-crud [sv]",
+      "language": "sv"
+    },
+    {
+      "name": "enext-store-locator-crud [pt]",
+      "language": "pt"
+    },
+    {
+      "name": "enext-store-locator-crud [fi]",
+      "language": "fi"
+    }
+  ],
+  "availableToAllPages": true,
+  "jsEditable": true,
+  "minWidth": 1,
+  "globalEnabled": true,
+  "config": {}
+}

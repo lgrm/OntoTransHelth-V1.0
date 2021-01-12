@@ -1,0 +1,79 @@
+<div class="x-crud" data-bind="css: {'x-crud--light' : $data.selectedTemplate}">
+  <div class="x-crud-background ">
+   <!-- <div class="x-crud-background--ligth" data-bind="if: $data.selectedTemplate">-->
+    <div class="x-crud-content">
+      <!--card-crud-->
+      <form class="x-crud-content">
+        <!--signup-->
+        <div class="x-crud-content__form-title">
+          <div class="x-crud-content__form-title--text"> ADDRESS UPDATE</div>
+        </div>
+        <!--crud-title-->
+        <div class="x-crud-content__form-body">
+          <!--crud-body-->
+          <div class="x-crud-content__form-body--box">
+            <!--box-->
+            <input type="text" placeholder="Name*">
+          </div>
+          <div class="x-crud-content__form-body--box">
+            <input type="text" placeholder="Email *">
+          </div>
+          <div class="x-crud-content__form-body--box">
+            <label id="date" >Initial Date</label><input type="date"></input>
+            <label id="date">End Date</label><input type="date" placeholder="Data Fim *">
+          </div>
+          <div class="x-crud-content__form-body--box"></div>
+          <div class="x-crud-content__form-body--box">
+            <label>Location</label><input type="radio" value="type" name="loja" data-bind="checked: $data.selectedStore(false), value:$data.properties().type">
+            <label>Store</label><input type="radio" value="type" name="store" data-bind="checked: $data.selectedStore">
+          </div>
+
+          <div class="x-crud-content__form-body--box" data-bind="if: $data.selectedStore">
+            <label id="date">Opening hour</label>
+            <input type="time"  name="open" min="00:00" max="23:59" required data-bind="value:$data.properties().openingHour" >
+            <label id="date">Closing hour</label>
+            <input type="time"  name="close" min="00:00" max="23:59" required data-bind="value:$data.properties().closingHour">
+          </div>
+          <div class="x-crud-content__form-body--box">
+
+            <input type="text" placeholder="ZIP" value="" size="10"
+              data-bind="value:$data.postalCode, event:{blur:function(){$data.searchZipCode($data.postalCode)}}" />
+            <input type="text" placeholder="Street" type="text" id="rua" size="60"
+              data-bind="value:$data.properties().street" />
+            <input name="county" type="text" id="county" size="40" data-bind="value:$data.properties().county"
+              placeholder="County" />
+          </div>
+          <div class="x-crud-content__form-body--box">
+
+            <input type="text" placeholder="Number">
+            <input name="city" type="text" id="city" size="40" data-bind="value:$data.properties().city"
+              placeholder="City" />
+            <input type="uf" name="uf" id="uf" size="2" data-bind="value:$data.properties().state" placeholder="UF" />
+            <select data-bind="options: $data.countries"></select>
+          </div>
+          <div class="x-crud-content__form-body--box">
+            <input type="text" placeholder="Longitude" data-bind="value:$data.properties().longitude" />
+            <input type="text" placeholder="Latitude" data-bind="value:$data.properties().latitude"/>
+            <input type="text" placeholder="Phone"data-bind="value:$data.properties().phone"/>
+          </div>
+         <div class="x-crud-content__form-body--box">
+            <input type="text" placeholder="Site" data-bind="value:$data.properties().site"/>
+            
+          </div>
+
+        </div>
+        <div class="x-crud-content__form-footer--rule"></div>
+        <div class="x-crud-content__form-footer--box">
+          <button class="x-store-x-form__btn"> REGISTER</button>
+          <button class="x-store-x-form__btn"> ALTER</button>
+          
+          </div>
+          <div class="x-crud-content__form-body--box">
+            <button class="x-store-x-form__btn" data-bind="click:$data.isActive"> light</button>
+           
+
+        </div>
+      </form>
+    </div>
+  </div>
+  </div>

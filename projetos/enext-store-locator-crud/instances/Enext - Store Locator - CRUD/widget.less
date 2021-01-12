@@ -1,0 +1,347 @@
+
+  .x-crud {
+
+    &--light {
+
+      .x-crud {
+        &-background {
+          background: #999999 url("file/general/storeLocationWhite.svg") no-repeat left top fixed;
+          background-size: 100%;
+        }
+
+        &-content {
+          background-color: #474747;
+          &__form-title {
+            background-color: rgb(192, 192, 192);
+
+            &--text {
+              background: linear-gradient(to right, rgb(59, 59, 59) 0%, #474747 100%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+
+            }
+
+          }
+
+          &__form-body {
+            padding: 10px;
+            background-color: whitesmoke;
+
+            &--box {
+              background-color: whitesmoke;
+              label {
+                color: rgb(48, 48, 48);
+              }
+              #date {
+                color: rgb(48, 48, 48);
+              }
+              input {
+                color: rgb(48, 48, 48);
+                background-color: whitesmoke;
+                border-color: black;
+                &::placeholder {
+                  color: #1A1A1A;
+                }
+                &[type="radio"] {
+                  background: black;
+                }
+              }
+              select {
+                border-color: black;
+                background-color: white;
+                color: black;
+              }
+            }
+          }
+
+          &__form-footer {
+
+            background-color: whitesmoke;
+
+            &--rule {
+
+              background: transparent;
+
+            }
+            &--box{
+              background-color: whitesmoke;
+            }
+          }
+        }
+
+
+      }
+
+      .x-store-x-form__btn {
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color:rgb(184, 184, 184);
+        width: 90px;
+    
+      }
+      .x-store-x-form__btn:hover{
+        background-color: rgb(150, 150, 150);
+      }
+    
+    }
+
+
+    &-background {
+
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #1A1A1A url("file/general/storeLocation.svg") no-repeat left top fixed;
+      background-size: 100%;
+      font-family: sans-serif;
+
+
+
+      img {
+        display: flex;
+        position: relative;
+
+      }
+
+    }
+
+
+
+    &-content {
+      width: 500px;
+
+      background-color: black;
+      box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+      font-family: Raleway;
+      text-transform: @FormTextTransform;
+
+      &__form-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #1A1A1A;
+        // border-radius: 10px 10px 0 0;
+        text-transform: @FormTextTransform;
+
+        &--text {
+          background: linear-gradient(to right, rgb(255, 255, 255) 0%, #8a8a8a 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+      }
+
+      &__form-body {
+        padding: 10px;
+        background-color: @FormBackgroundColor;
+
+        &--box {
+
+          display: flex;
+          justify-content: space-around;
+          padding: 10px;
+
+
+          label {
+
+            letter-spacing: @InputLetterSpacing;
+            font-size: 12px;
+            margin: 0 15px;
+            height: 9px;
+            color: rgb(153, 153, 153);
+          }
+
+          #date {
+            padding-left: 3px;
+            font-size: 12px;
+            line-height: 1.2;
+            color: rgb(153, 153, 153);
+          }
+
+          input {
+            color: rgb(214, 214, 214);
+            text-transform: @FormTextTransform;
+            background-color: @BackgroundInput;
+            border: none;
+            font-size: @InputFontSize;
+            border-bottom: @InputBorder;
+            outline: 0;
+            border-color: white;
+            appearance: none;
+            width: 100%;
+
+            &::placeholder {
+              color: @InputPlaceholderTextColor;
+            }
+
+            &[type="text"],
+            &[type="date"],
+            &[type="time"] {
+              margin: 0 15px;
+              height: 25px;
+              padding: 5px 15px;
+
+            }
+
+            &[type="radio"] {
+
+              width: 20%;
+              margin: 0px 0px 0px 0px;
+              border-radius: 5px;
+              border-bottom: none;
+              outline: none;
+              border: none;
+              background: #e8ebed;
+              // font-style: 13px;
+            }
+
+
+            &[type="uf"] {
+              margin: 0 15px;
+              height: 25px;
+              padding: 5px 5px;
+            }
+
+          }
+
+
+
+          select {
+            outline: 0;
+            border: none;
+            border-bottom: @InputBorder;
+            border-color: white;
+            appearance: none;
+            width: 100%;
+            margin: 0 15px;
+            height: 25px;
+            padding: 5px 10px;
+            background-color:black;
+            font-size: @InputFontSize;
+            color: rgb(153, 153, 153)
+          }
+        }
+      }
+
+
+      &__form-footer {
+        margin: 0 25px 15px 25px;
+        padding: 15px 10px;
+        background-color: black;
+
+        &--rule {
+          height: 2px;
+          background: #1A1A1A;
+          margin: 0px 35px;
+        }
+
+        &--box {
+          display: flex;
+          justify-content: space-around;
+          padding: 10px;
+
+        }
+      }
+    }
+
+  }
+
+  .x-store-x-form__btn {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: @SecundaryButtonColor;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 90px
+
+  }
+
+  .x-store-x-form__btn:hover{
+    background-color: rgb(19, 19, 19);
+  }
+
+
+  @media screen {
+    @media (min-width: 100px) and (max-width: 767px) {
+
+      .x-crud-background {
+
+        display: flex;
+        height: 300vh;
+
+        background-size: 100%;
+        font-family: sans-serif;
+        letter-spacing: @InputLetterSpacing;
+
+        img {
+          display: flex;
+          position: relative;
+          margin-top: 10px;
+        }
+      }
+
+
+
+      .x-crud-content {
+        
+        width: 300px; 
+        padding-top: 0px;
+        
+        &__form-body {
+          //height: 70vh;
+          background-color: black;
+
+
+
+
+          &--box {
+            display: flex;
+            flex-direction: column;
+
+            align-items: center;
+            justify-content: space-between;
+
+            label{
+              margin-top:5px;
+              font-size: 10px;
+            }
+
+           
+            input,#uf {
+              margin: 10px 15px;
+              padding: 15px;
+
+              &[type="radio"],            
+              &[type="date"],
+              &[type="time"]  {
+                  margin-top: 10px;
+              }
+              
+  
+
+            }
+
+          }
+        }
+        &__form-footer{
+          background-color: black;
+          &--box {
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+        }
+        
+      }
+    }
+  }
+ }

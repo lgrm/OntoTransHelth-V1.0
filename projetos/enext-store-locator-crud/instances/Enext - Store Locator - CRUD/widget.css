@@ -1,0 +1,172 @@
+ .x-crude-background {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #1A1A1A url("file/general/background.svg") no-repeat left top fixed;
+  background-size: 100%;
+  font-family: sans-serif;
+}
+ .x-crude-background img {
+  display: flex;
+  position: relative;
+}
+ .x-crude-content {
+  width: 500px;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+  font-family: Raleway;
+  text-transform: uppercase;
+}
+ .x-crude-content__form-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1A1A1A;
+  border-radius: 10px 10px 0 0;
+  text-transform: uppercase;
+}
+ .x-crude-content__form-title--text {
+  background: linear-gradient(to right, #ffffff 0%, #8a8a8a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .x-crude-content__form-body {
+  padding: 10px;
+  background-color: black;
+}
+ .x-crude-content__form-body--box {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+ .x-crude-content__form-body--box label {
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 0 15px;
+  height: 15px;
+  color: #999999;
+}
+ .x-crude-content__form-body--box #date {
+  padding-left: 3px;
+  font-size: 12px;
+  line-height: 1.2;
+  color: #999999;
+}
+ .x-crude-content__form-body--box input {
+  color: #d6d6d6;
+  text-transform: uppercase;
+  background: transparent;
+}
+ .x-crude-content__form-body--box input::placeholder {
+  color: #5c5c5c;
+}
+ .x-crude-content__form-body--box input[type="text"],
+ .x-crude-content__form-body--box input[type="date"],
+ .x-crude-content__form-body--box input[type="time"] {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: white;
+  appearance: none;
+  width: 100%;
+  margin: 0 15px;
+  height: 35px;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+ .x-crude-content__form-body--box input[type="radio"] {
+  appearance: none;
+  width: 20%;
+  margin: 0px 0px 0px 0px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #e8ebed;
+}
+ .x-crude-content__form-body--box input[type="uf"] {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  appearance: none;
+  width: 100%;
+  margin: 0 15px;
+  height: 35px;
+  padding: 5px 5px;
+  font-size: 14px;
+  background-color: black;
+}
+ .x-crude-content__form-body--box select {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  appearance: none;
+  width: 100%;
+  margin: 0 15px;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+ .x-crude-content__form-footer {
+  margin: 0 25px 15px 25px;
+  padding: 15px 10px;
+  background-color: black;
+}
+ .x-crude-content__form-footer--rule {
+  height: 2px;
+  background: #1A1A1A;
+  margin: 0px 35px;
+}
+ .x-crude-content__form-footer a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background-color: #1A1A1A;
+  margin-right: 10px;
+  font-size: 14px;
+  color: white;
+}
+ .x-crude-content__form-footer span {
+  margin-left: 8px;
+}
+@media screen and (min-width: 100px) and (max-width: 767px) {
+   .x-crude-background {
+    display: flex;
+    height: 200vh;
+    background-size: 100%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+   .x-crude-background img {
+    display: flex;
+    position: relative;
+    margin-top: 350px;
+  }
+   .x-crude-content {
+    width: 300px;
+    height: 70vh;
+    margin-top: -200px;
+  }
+   .x-crude-content .x-crude-content__form-body {
+    background-color: black;
+  }
+   .x-crude-content .x-crude-content__form-body--box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .x-crude-content .x-crude-content__form-body--box input {
+    margin: 10px 15px;
+    padding: 15px;
+  }
+}
